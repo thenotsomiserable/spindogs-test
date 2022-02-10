@@ -145,7 +145,7 @@ header {
 }
 
 #logo {
-  background-image: url("/assets/images/logo.png");
+  background-image: url("../../assets/images/logo.png");
   background-repeat: no-repeat;
   display: block;
   font-size: 0;
