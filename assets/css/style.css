@@ -167,3 +167,8 @@ nav ul li {
 #heading {
   padding: 47px 0;
 }
+#heading h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1em;
+}
