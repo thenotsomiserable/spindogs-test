@@ -85,7 +85,7 @@ nav ul li a {
 .container {
   margin: auto;
   padding: 0;
-  max-width: 1440px;
+  max-width: 1230px;
   display: flex;
   align-items: center;
 }
@@ -140,6 +140,7 @@ button a {
 
 header {
   align-items: center;
+  border-bottom: 1px solid #DFDCDF;
   display: flex;
   margin: auto;
   height: 120px;
