@@ -1,0 +1,27 @@
+button {
+  background-color: $base-light;
+  border: solid 3px $pink;
+  padding: 15px 16px;
+  text-transform: uppercase;
+  a {
+    color: $pink;
+    text-decoration: none;
+    font-weight: 700;
+  }
+}
+
+.social {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.share {
+  background-image: url('../../assets/images/share.svg');
+}
+.facebook {
+  background-image: url('../../assets/images/facebook.svg');
+}
+.twitter {
+  background-image: url('../../assets/images/twitter.svg');
+}

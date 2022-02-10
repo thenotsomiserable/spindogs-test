@@ -1,0 +1,33 @@
+//**********************************************//
+// Site header                                  //
+//**********************************************//
+header {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  height: 120px;
+  width: 100%;
+}
+
+#logo {
+  background-image: url('/assets/images/logo.png');
+  background-repeat: no-repeat;
+  display: block;
+  font-size: 0;
+  height: 40px;
+}
+
+nav {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    li {
+      display: inline;
+      text-transform: uppercase;
+    }
+  }
+}
+
+#heading {
+  padding: 47px 0;
+}
