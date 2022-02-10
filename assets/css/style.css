@@ -110,6 +110,7 @@ section.credits {
 button {
   background-color: #FFFFFF;
   border: solid 3px #B24399;
+  margin: 48px 0;
   padding: 15px 16px;
   text-transform: uppercase;
 }
