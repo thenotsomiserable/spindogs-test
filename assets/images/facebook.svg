@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D42EC21E-C982-4E51-95D7-81D6E06848FA</title>
+    <defs>
+        <path d="M7.436,5.181 L4.903,5.181 L4.903,3.52 C4.903,2.897 5.317,2.751 5.608,2.751 L7.394,2.751 L7.394,0.009 L4.933,0 C2.202,0 1.581,2.045 1.581,3.353 L1.581,5.181 L0,5.181 L0,8.005 L1.581,8.005 L1.581,16 L4.903,16 L4.903,8.005 L7.145,8.005 L7.436,5.181 Z" id="path-1"></path>
+    </defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flex-List-Copy" transform="translate(-980.000000, -481.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="5937.97848"></rect>
+            <g id="Group-45" transform="translate(359.000000, 447.000000)">
+                <g id="Group-9" transform="translate(0.000000, 25.000000)">
+                    <g id="Group-8" transform="translate(565.000000, 1.000000)">
+                        <g id="Group-24" transform="translate(48.000000, 0.000000)">
+                            <circle id="Oval" fill="#D8F2F9" cx="20" cy="20" r="20"></circle>
+                            <g id="Icon" transform="translate(16.000000, 12.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Fill-266" fill="#009EB5" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

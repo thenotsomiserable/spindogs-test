@@ -1,0 +1,27 @@
+//**********************************************//
+// Page structure                               //
+//**********************************************//
+.container {
+  margin: auto;
+  padding: 0;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+}
+
+section.row {
+  max-width: 704px;
+  margin: auto;
+}
+
+.row {
+  margin: auto;
+  width: 100%;
+}
+
+section.credits {
+  height: 2px;
+  padding: 25px;
+  border-top: 1px solid $purple;
+  border-top: 1px solid $purple;
+}

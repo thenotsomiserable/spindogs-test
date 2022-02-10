@@ -1,0 +1,166 @@
+* {
+  font-size: 16px;
+  font-family: effra, sans-serif;
+  line-height: 1em;
+}
+
+p {
+  font-weight: 400;
+  font-style: normal;
+}
+
+p::before {
+  padding-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #04142C;
+  font-family: effra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 56px;
+}
+
+h6 {
+  font-size: 56px;
+}
+
+a:hover,
+a:active {
+  color: #009EB5;
+}
+
+nav ul li {
+  font-size: 18px;
+  font-weight: 700;
+}
+nav ul li a {
+  color: #04142C;
+}
+
+@font-face {
+  font-family: categoryFont;
+  src: url(../../assets/fonts/market-regular.ttf);
+}
+.category {
+  color: #B24399;
+  font-family: categoryFont;
+  font-size: 40px;
+}
+
+.credits-title {
+  color: #009EB5;
+  text-transform: uppercase;
+}
+
+.credits-name {
+  text-transform: uppercase;
+}
+
+.container {
+  margin: auto;
+  padding: 0;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+}
+
+section.row {
+  max-width: 704px;
+  margin: auto;
+}
+
+.row {
+  margin: auto;
+  width: 100%;
+}
+
+section.credits {
+  height: 2px;
+  padding: 25px;
+  border-top: 1px solid #502255;
+  border-top: 1px solid #502255;
+}
+
+button {
+  background-color: #FFFFFF;
+  border: solid 3px #B24399;
+  padding: 15px 16px;
+  text-transform: uppercase;
+}
+button a {
+  color: #B24399;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.social {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.share {
+  background-image: url("../../assets/images/share.svg");
+}
+
+.facebook {
+  background-image: url("../../assets/images/facebook.svg");
+}
+
+.twitter {
+  background-image: url("../../assets/images/twitter.svg");
+}
+
+header {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  height: 120px;
+  width: 100%;
+}
+
+#logo {
+  background-image: url("/assets/images/logo.png");
+  background-repeat: no-repeat;
+  display: block;
+  font-size: 0;
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  display: inline;
+  text-transform: uppercase;
+}
+
+#heading {
+  padding: 47px 0;
+}
