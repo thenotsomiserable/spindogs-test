@@ -1,3 +1,6 @@
+//**********************************************//
+// Buttons                                      //
+//**********************************************//
 button {
   background-color: $base-light;
   border: solid 3px $pink;
@@ -11,10 +14,29 @@ button {
   }
 }
 
-.social {
+//**********************************************//
+// Social sharing buttons                       //
+//**********************************************//
+
+ul#social-sharing {
   display: flex;
   align-content: center;
-  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+  li {
+    margin: auto;
+  }
+}
+
+.social {
+  border-radius: 50%;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+}
+
+.social.share {
+  border-radius: 0;
 }
 
 .share {
