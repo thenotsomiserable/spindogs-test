@@ -120,10 +120,25 @@ button a {
   font-weight: 700;
 }
 
-.social {
+ul#social-sharing {
   display: flex;
   align-content: center;
-  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+}
+ul#social-sharing li {
+  margin: auto;
+}
+
+.social {
+  border-radius: 50%;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+}
+
+.social.share {
+  border-radius: 0;
 }
 
 .share {

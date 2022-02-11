@@ -1,3 +1,8 @@
+//**********************************************//
+// Typeography                                  //
+//**********************************************//
+
+// set global font size and typeface
 * {
   font-size: 16px;
   font-family: effra, sans-serif;
@@ -67,6 +72,7 @@ nav {
   }
 }
 
+// add script font for category
 @font-face {
   font-family: categoryFont;
   src: url(../../assets/fonts/market-regular.ttf);
@@ -78,6 +84,7 @@ nav {
   font-size: 40px;
 }
 
+// define font style for credit section
 .credits-title {
   color: $aqua;
   text-transform: uppercase;
