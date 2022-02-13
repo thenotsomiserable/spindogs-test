@@ -180,13 +180,13 @@ ul#social-sharing li {
   width: 100%;
 }
 .chart-title-main label.percentage {
-  font-size: 2.5rem;
-  line-height: 1.5rem;
+  font-size: 3.2rem;
+  line-height: 3rem;
 }
 .chart-title-main label.increase {
   color: #32A8AF;
-  font-size: 2.2rem;
-  line-height: 1.2em;
+  font-size: 2.5rem;
+  line-height: 1.5em;
 }
 
 .chart-title-mini {
@@ -200,7 +200,7 @@ ul#social-sharing li {
 }
 .chart-title-mini label.percentage {
   font-size: 1.5em;
-  line-height: 0.5em;
+  line-height: 1.5em;
 }
 .chart-title-mini label.increase {
   color: #32A8AF;
