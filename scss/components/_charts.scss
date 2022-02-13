@@ -1,0 +1,113 @@
+//**********************************************//
+// Charts                                       //
+//**********************************************//
+.canvas {
+  border: 0.25px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.canvas.main {
+  height: 284px;
+  width: 284px;
+}
+
+.canvas.mini {
+  height: 155px;
+  width: 155px;
+}
+
+.chart-title-main {
+  align-self: center;
+  position: absolute;
+  label {
+    font-weight: 700;
+    text-align: center;
+    width: 100%
+  }
+  label.percentage {
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+  }
+  label.increase {
+    color: $aqua-light;
+    font-size: 2.2rem;
+    line-height: 1.2em;
+  }
+}
+
+.chart-title-mini {
+  align-self: center;
+  position: absolute;
+  label {
+    font-weight: 700;
+    text-align: center;
+    width: 100%
+  }
+  label.percentage {
+    font-size: 1.5em;
+    line-height: .5em;
+  }
+  label.increase {
+    color: $aqua-light;
+    font-size: 1.2em;
+    line-height: .2em;
+  }
+}
+
+.stats {
+  border-right: solid 1px $base-grey;
+  &:last-child {
+    border-right: none;
+  }
+  label {
+    font-weight: 700;
+    text-align: center;
+    width: 100%
+  }
+  label.data {
+    font-size: 1.5em;
+    line-height: .5em;
+  }
+  label.data-explain {
+    color: $aqua-light;
+    font-size: 1.2em;
+    line-height: .2em;
+  }
+}
+
+#timeline {
+  padding: 2rem 0;
+  max-width: 360px;
+  ul {
+    list-style: none;
+    li {
+      padding-bottom: 1.5rem;
+      border-left: 1px solid $aqua-light;
+      position: relative;
+      padding-left: 40px;
+      &:last-child {
+        border: 0px;
+        padding-bottom: 0;
+      }
+      &:before {
+        content: '';
+        width: 12px;
+        height: 12px;
+        background: $aqua-light;
+        border: 1px solid $aqua-light;
+        border-radius: 50%;
+        position: absolute;
+        left: -6px;
+        top: 0px;
+      }
+      &:first-child:before,
+      &:last-child:before {
+        left: -10px;
+        height: 18px;
+        width: 18px;
+      }
+    }
+  }
+}
