@@ -11,7 +11,7 @@ const options = {
     animateScale: true,
     animateRotate: true
   }
-}
+};
 
 // large doughnut
 var ctx = document.getElementById('chartMain');
