@@ -92,7 +92,10 @@ nav ul li a {
 
 section.row {
   max-width: 704px;
-  margin: 40px auto;
+  margin: 20px auto;
+}
+section.row:last-child {
+  margin: 20px auto 60px;
 }
 
 .row {
