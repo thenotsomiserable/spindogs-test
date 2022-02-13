@@ -92,7 +92,7 @@ nav ul li a {
 
 section.row {
   max-width: 704px;
-  margin: auto;
+  margin: 40px auto;
 }
 
 .row {
@@ -151,6 +151,116 @@ ul#social-sharing li {
 
 .twitter {
   background-image: url("../../assets/images/twitter.svg");
+}
+
+.canvas {
+  border: 0.25px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.canvas.main {
+  height: 284px;
+  width: 284px;
+}
+
+.canvas.mini {
+  height: 155px;
+  width: 155px;
+}
+
+.chart-title-main {
+  align-self: center;
+  position: absolute;
+}
+.chart-title-main label {
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+.chart-title-main label.percentage {
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+}
+.chart-title-main label.increase {
+  color: #32A8AF;
+  font-size: 2.2rem;
+  line-height: 1.2em;
+}
+
+.chart-title-mini {
+  align-self: center;
+  position: absolute;
+}
+.chart-title-mini label {
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+.chart-title-mini label.percentage {
+  font-size: 1.5em;
+  line-height: 0.5em;
+}
+.chart-title-mini label.increase {
+  color: #32A8AF;
+  font-size: 1.2em;
+  line-height: 0.2em;
+}
+
+.stats {
+  border-right: solid 1px #DFDCDF;
+}
+.stats:last-child {
+  border-right: none;
+}
+.stats label {
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+.stats label.data {
+  font-size: 1.5em;
+  line-height: 0.5em;
+}
+.stats label.data-explain {
+  color: #32A8AF;
+  font-size: 1.2em;
+  line-height: 0.2em;
+}
+
+#timeline {
+  padding: 2rem 0;
+  max-width: 360px;
+}
+#timeline ul {
+  list-style: none;
+}
+#timeline ul li {
+  padding-bottom: 1.5rem;
+  border-left: 1px solid #32A8AF;
+  position: relative;
+  padding-left: 40px;
+}
+#timeline ul li:last-child {
+  border: 0px;
+  padding-bottom: 0;
+}
+#timeline ul li:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #32A8AF;
+  border: 1px solid #32A8AF;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+  top: 0px;
+}
+#timeline ul li:first-child:before, #timeline ul li:last-child:before {
+  left: -10px;
+  height: 18px;
+  width: 18px;
 }
 
 header {
