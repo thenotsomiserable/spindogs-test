@@ -3,14 +3,14 @@
 /*********************************/
 
 
-// global options for doughnut charts
+Chart.overrides.doughnut.cutout = "70%";
+
 const options = {
-  cutoutPercentage: 80,
-  responsive: true,
-  animation: {
-    animateScale: true,
-    animateRotate: true
-  }
+   responsive: true,
+   animation: {
+     animateScale: true,
+     animateRotate: true
+   }
 };
 
 // large doughnut
@@ -23,7 +23,7 @@ var data = {
       '#32A8AF'
     ],
     hoverOffset: 4,
-    }],
+  }]
 };
 
 var chartMain = new Chart(ctx, {
@@ -31,7 +31,6 @@ var chartMain = new Chart(ctx, {
   data: data,
   options: options
 });
-
 
 // mini doughnuts
 
@@ -44,9 +43,8 @@ var data_1 = {
       '#32A8AF'
     ],
     hoverOffset: 4
-  }],
-}
-
+  }]
+};
 
 var chartMiniOne = new Chart(ctx_1, {
   type: 'doughnut',
@@ -65,8 +63,8 @@ var data_2 = {
       '#C724B1'
     ],
     hoverOffset: 4
-  }],
-}
+  }]
+};
 
 var chartMiniTwo = new Chart(ctx_2, {
   type: 'doughnut',
@@ -86,8 +84,8 @@ var data_3 = {
       '#78157C'
     ],
     hoverOffset: 4
-  }],
-}
+  }]
+};
 
 var chartMiniThree = new Chart(ctx_3, {
   type: 'doughnut',
@@ -106,8 +104,8 @@ var data_4 = {
       '#BACE00'
     ],
     hoverOffset: 4
-  }],
-}
+  }]
+};
 
 var chartMiniFour = new Chart(ctx_4, {
   type: 'doughnut',
